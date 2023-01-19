@@ -23,6 +23,7 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
+  ```git clone https://github.com/afang732/lab2-git-markdown.git```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -34,19 +35,29 @@ tasks are comparable.  Here are the tasks:
    You can use
    RStudio editor, or any other editor you like.
    
+   + *Tuesdays with Morrie*
+   + *A Man Called Ove*
+   + *Parable of the Sower*
+   
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
-   
-   Explain, in plain text, what does it mean.
+   >On branch main
+  Your branch is up to date with 'origin/main'.
+  nothing to commit, working tree clean
+  
+  This means that everything is up to date and that there's nothing new to commit or push
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
 
+```git add "books.md"```
+
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+  yes, it says there's a new file called "books.md"
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
